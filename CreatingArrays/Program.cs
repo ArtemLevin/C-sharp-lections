@@ -26,42 +26,23 @@ int[] array = new int[10];
 FillArray(array);
 PrintArray(array);
 
-int Find(int[] array, int find)
+void UpsideDown (int[] array)
 {
-    int i = array.Length;
-    int c = 0;
-    int NumberPos = -1;
-    while (c < i)
+    int len=array.Length;
+    int y = 0;
+    int temp;
+    while (y < (len/2))
+    
     {
-        if (array[c] == find)
-        {
-            NumberPos = c;
-            break;
-        }
-        c++;
-    }
-    return NumberPos;
+        temp = array[y];
+        array[y]=array[len - y - 1];
+        array[len-y - 1]=temp;
+        Console.Write(" " + array[y]);
+        y++;
 
+    }
 }
 
-Console.WriteLine("");
+Console.WriteLine(" ");
 
-Console.Write("Index of the number to find out: " + Find(array, 4));
-int Max(int[] array)
-{
-    int len = array.Length;
-    int p = 0;
-    int max = array[0];
-
-    while (p < len)
-    {
-        if (array[p] > max)
-        {
-            max= array[p];
-        }
-        p++;
-    }
-    return max;
-}
-Console.Write(" ");
-Console.Write("The max number is: " + Max(array));
+UpsideDown(array);
