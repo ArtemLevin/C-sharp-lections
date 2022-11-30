@@ -25,3 +25,22 @@ void PrintArray(int[] col)
 int[] array = new int[10];
 FillArray(array);
 PrintArray(array);
+
+int Max(int[] array)
+{
+    int len = array.Length;
+    int p = 0;
+    int max = array[0];
+
+    while (p < len)
+    {
+        if (array[p] > max)
+        {
+            max= array[p];
+        }
+        p++;
+    }
+    return max;
+}
+Console.Write(" ");
+Console.Write("The max number is: " + Max(array));
