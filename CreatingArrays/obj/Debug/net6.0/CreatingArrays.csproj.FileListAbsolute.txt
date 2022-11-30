@@ -1,0 +1,15 @@
+C:\Users\PC\Desktop\С sharp lections\CreatingArrays\obj\Debug\net6.0\CreatingArrays.csproj.AssemblyReference.cache
+C:\Users\PC\Desktop\С sharp lections\CreatingArrays\obj\Debug\net6.0\CreatingArrays.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PC\Desktop\С sharp lections\CreatingArrays\obj\Debug\net6.0\CreatingArrays.AssemblyInfoInputs.cache
+C:\Users\PC\Desktop\С sharp lections\CreatingArrays\obj\Debug\net6.0\CreatingArrays.AssemblyInfo.cs
+C:\Users\PC\Desktop\С sharp lections\CreatingArrays\obj\Debug\net6.0\CreatingArrays.csproj.CoreCompileInputs.cache
+C:\Users\PC\Desktop\С sharp lections\CreatingArrays\bin\Debug\net6.0\CreatingArrays.exe
+C:\Users\PC\Desktop\С sharp lections\CreatingArrays\bin\Debug\net6.0\CreatingArrays.deps.json
+C:\Users\PC\Desktop\С sharp lections\CreatingArrays\bin\Debug\net6.0\CreatingArrays.runtimeconfig.json
+C:\Users\PC\Desktop\С sharp lections\CreatingArrays\bin\Debug\net6.0\CreatingArrays.dll
+C:\Users\PC\Desktop\С sharp lections\CreatingArrays\bin\Debug\net6.0\CreatingArrays.pdb
+C:\Users\PC\Desktop\С sharp lections\CreatingArrays\obj\Debug\net6.0\CreatingArrays.dll
+C:\Users\PC\Desktop\С sharp lections\CreatingArrays\obj\Debug\net6.0\refint\CreatingArrays.dll
+C:\Users\PC\Desktop\С sharp lections\CreatingArrays\obj\Debug\net6.0\CreatingArrays.pdb
+C:\Users\PC\Desktop\С sharp lections\CreatingArrays\obj\Debug\net6.0\CreatingArrays.genruntimeconfig.cache
+C:\Users\PC\Desktop\С sharp lections\CreatingArrays\obj\Debug\net6.0\ref\CreatingArrays.dll
