@@ -31,13 +31,13 @@ int Find(int[] array, int find)
     int i = array.Length;
     int c = 0;
     int NumberPos = -1;
-    while (c<i)
+    while (c < i)
     {
         if (array[c] == find)
         {
             NumberPos = c;
         }
-        c++; 
+        c++;
     }
     return NumberPos;
 
