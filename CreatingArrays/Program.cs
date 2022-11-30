@@ -36,6 +36,7 @@ int Find(int[] array, int find)
         if (array[c] == find)
         {
             NumberPos = c;
+            break;
         }
         c++;
     }
@@ -46,3 +47,21 @@ int Find(int[] array, int find)
 Console.WriteLine("");
 
 Console.Write("Index of the number to find out: " + Find(array, 4));
+int Max(int[] array)
+{
+    int len = array.Length;
+    int p = 0;
+    int max = array[0];
+
+    while (p < len)
+    {
+        if (array[p] > max)
+        {
+            max= array[p];
+        }
+        p++;
+    }
+    return max;
+}
+Console.Write(" ");
+Console.Write("The max number is: " + Max(array));
