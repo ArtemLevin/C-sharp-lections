@@ -26,23 +26,20 @@ int[] array = new int[10];
 FillArray(array);
 PrintArray(array);
 
-int Find(int[] array, int find)
-{
-    int i = array.Length;
-    int c = 0;
-    int NumberPos = -1;
-    while (c < i)
-    {
-        if (array[c] == find)
-        {
-            NumberPos = c;
-        }
-        c++;
-    }
-    return NumberPos;
+ Console.WriteLine(" ");
 
+void upside(int[] array)
+{
+    int len=array.Length;
+    int ind=0;
+    int[] antiarray = new int[10];
+    while (ind < len)
+    {
+        antiarray[ind] = array[len - ind -1];
+        Console.Write(antiarray[ind]+ " ");
+        ind++;
+    }
+  
 }
 
-Console.WriteLine("");
-
-Console.Write("Index of the number to find out: " + Find(array, 4));
+upside(array);
